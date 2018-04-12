@@ -1,0 +1,713 @@
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#logo {
+  width:150px;
+}
+
+a {
+  color: #800000;
+}
+
+h2 {
+text-align: center;}
+
+body {
+  font-family: chicle;
+}
+
+hr {
+ border-top: 1px solid #f9f9f9;
+}
+
+button {
+  font-family: arial;
+  border: none;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 4px;
+  margin-left: 2px;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 0px;
+  text-align: left;
+  border-radius: 2px;
+}
+
+.carousel-caption {
+    text-align: left;
+    max-width: 300px;
+    padding:5px;
+    left: 10%;
+    bottom: 33%;
+}
+
+.blocks .btn-basic
+{
+    margin: 0 5px;
+    border-radius: 0;
+}
+
+.topfront {
+  height: 25em;
+  background-color: #66d066;
+  padding-left: 40px;
+}
+
+.topfrontleft {
+  height: 25em;
+  background-color: #66d066;
+  padding-left: 16px;
+  padding-top: 8px;
+}
+
+.headerrow {
+  background-color: #f9f9f9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.register {
+  padding-top: 2px;
+  font-size: 14px;
+}
+
+.LessonFinished {
+  display : none;
+  position: relative;
+  color: #FFFF00;
+  font-family: "Chicle";
+  font-style : "bold";
+  font-size : 60px;
+  z-index : 4;
+}
+
+
+#middlefront {
+   height: 30em;
+   background-image: url("img/book.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#middlefront2 {
+   height: 30em;
+   background-image: url("img/landscape2.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.signup, .signout {
+  float: right;
+
+}
+
+.bottomfront {
+  background-color:  #ffc400;
+  height: 2em;
+  padding-top: 2px;
+  color: black;
+}
+
+.toptext {
+  color: white;
+  font-size: 40px;
+}
+
+.centertext {
+  padding-left: 18px;
+  padding-top: 75px;
+  font-size: 40px;
+  text-align: left;
+  color: white;
+}
+
+.centertext2 {
+  padding-left: 18px;
+  padding-top: 75px;
+  font-size: 40px;
+  text-align: left;
+  color: #800000;
+}
+
+.bottomtext {
+  color: white;
+  font-size: 30px;
+  margin-left: 3em;
+  margin-top: 2em;
+}
+
+
+.loginbutton, #logoutbutton {
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #66d066;
+  color: white;
+  font-size: 15px;
+  width: 95px;
+
+
+}
+
+.inputfront {
+  margin-top: 4px;
+  width: 112%;
+}
+
+.title {
+  font-size: 25px;
+  color: #800000;
+  padding: 10px;
+  vertical-align: bottom;
+}
+
+#imagefront {
+  width: 300px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+/* Userpage **************************************************************** */
+
+.profilebutton {
+  font-size: 12px;
+}
+
+#avatarlink {
+  float: right;
+  padding-top: 20px;
+  margin-right: 10px;
+}
+
+.usertop {
+  height: 20em;
+  border: 5px solid #f9f9f9;
+  border-radius: 16px;
+}
+
+.welcome {
+  color: white;
+  font-size: 70px;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.profile {
+  color: white;
+  padding: 6px;
+  font-size: 25px;
+}
+
+.points {
+  font-size: 30px;
+  text-align: center;
+  border-radius: 16px;
+  color: #343434;
+}
+
+body {
+  background-color:#f9f9f9;
+}
+
+.head {
+    color: white;
+    font-size: 20px;
+}
+
+.menu {
+  font-size: 19px;
+  width: 100%;
+  background-color: #ffc400;
+  color: #343434;
+  margin-left: 0px;
+}
+
+.menudrop {
+  font-size: 14px;
+  width: 100%;
+  background-color: #ffc400;
+  color: white;
+  margin-left: 0px;
+
+}
+
+.dropdown-menu {
+  box-shadow: none;
+  background-color: #f9f9f9;
+  border: 0px;
+}
+
+
+.mainmenu {
+  height: 16em;
+  border-radius: 16px;
+  color: white;
+  font-size: 24px;
+  border: 5px solid #f9f9f9;
+  padding-left: 16px;
+  padding-top: 12px;
+}
+
+.theme1 {
+    background-image: url("img/cheetah.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    height: 8em;
+    border: 5px solid #f9f9f9;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+.theme {
+    background-color: #ffc400;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    height: 8em;
+    border: 5px solid #f9f9f9;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+.theme2 {
+    background-image: url("img/poes.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    height: 8em;
+    border: 5px solid #f9f9f9;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+.theme3 {
+    background-image: url("img/wielrennen.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    height: 8em;
+    border: 5px solid #f9f9f9;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+.theme4{
+    background-image: url("img/trein.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    height: 8em;
+    border: 5px solid #f9f9f9;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+.theme5{
+    background-image: url("img/nederland.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    height: 8em;
+    border: 5px solid #f9f9f9;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+.theme5{
+    background-image: url("img/nederland.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    height: 8em;
+    border: 5px solid #f9f9f9;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+.theme6{
+    background-image: url("img/ijsvogel.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    height: 8em;
+    border: 5px solid #f9f9f9;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+.theme7{
+    background-image: url("img/asteroide.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    height: 8em;
+    border: 5px solid #f9f9f9;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+.theme8{
+    background-image: url("img/pinksterbloem.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    height: 8em;
+    border: 5px solid #f9f9f9;
+    border-radius: 16px;
+    transition: transform 0.3s;
+}
+
+
+
+.theme:hover, .theme1:hover, .theme2:hover, .theme3:hover, .theme4:hover, .theme5:hover,
+.theme6:hover, .theme7:hover, .theme8:hover {
+   cursor: pointer;
+   transform: scale(1.02);
+}
+
+.avatar {
+  margin-top: 20px;
+  width: 200px;
+  float: right;
+}
+
+.dropbutton {
+  color:white;
+}
+
+/*Header styles
+ *************************************************************************** */
+.register{
+  float:right;
+  font-size: 10px;
+}
+.forgetpwd{
+  float: right;
+  font-size: 10px;
+}
+
+.nav-login {
+   float: right;
+   font-family: arial;
+}
+
+.main-wrapper {
+   font-family: arial;
+}
+
+ /*avatars stylchange
+ *************************************************************************** */
+.avatarselect{
+    width:180px;
+    height: 180px;
+    border-radius: 16px;
+    margin: 20px;
+    cursor: pointer;
+   }
+
+.avatarselect:hover {
+  background-color: #ffc400;
+  transform: scale(1.1);
+  padding: 8px;
+}
+
+
+.avatarhead {
+     font-size: 30px;
+     color: white;
+     padding: 12px;
+     text-align: center;
+   }
+
+.stylehead {
+    font-size: 30px;
+    padding: 12px;
+  }
+
+.style {
+  height: 4em;
+  border-radius: 6px;
+  width: 4em;
+  margin: 3px;
+}
+.style:hover {
+   transform: scale(1.1);
+}
+
+.example {
+  transform: scale(0.9);
+}
+
+.colors {
+  padding-left: 90px;
+}
+
+
+/* registration ************************************************************************* */
+
+#regbody {
+  background-color: #f9f9f9;
+  padding-top: 5px;
+}
+
+#regcontainer {
+  background-color: #66d066;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+#forgottext {
+  font-size: 25px;
+  color: #F5F5F5;
+}
+
+.imagereg {
+  width: 12%;
+  float:right;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+#forgotcontainer {
+  background-color: #66d066;
+  border-radius: 30px;
+  padding-top: 20px;
+  margin-top: 20px;
+
+}
+
+/* messages***************************************************************** */
+
+.messagearea {
+  font-size: 18px;
+}
+
+.alertmessage {
+  width: 50%;
+}
+
+.deletemessage {
+  font-size: 12px;
+  float: right;
+  color: black;
+  background-color: #F5F5F5;
+}
+
+.messages {
+  height: auto;
+  border-right: 8px solid #f9f9f9;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-top: 8px;
+}
+
+.textmessages {
+  min-height: 20em;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding-bottom: 10px;
+}
+
+.sendform, #fullmessage {
+  margin-top: 6px;
+}
+
+.send {
+  background-color: #F5F5F5;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+}
+
+.messages {
+  font-size: 18px;
+}
+
+.message {
+  white-space: nowrap;
+  border-bottom: 1px solid black;
+  height: 80px;
+}
+
+.student {
+  padding-top: 2px;
+  font-size: 18px;
+}
+
+.overview {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #F5F5F5;
+}
+
+.mainviewsender {
+  color: #F5F5F5;
+  font-size: 24px;
+}
+
+.glyphicon-envelope {
+  float: right;
+  padding-right: 20px;
+  padding-top: 4px;
+}
+
+.mainsendbutton {
+  font-family: chicle;
+  padding: 10px;
+  margin-left: 10px;
+  float: right;
+  color: black;
+  background-color: #F5F5F5;
+}
+
+.mainviewmessage {
+  font-size: 18px;
+  color: #F5F5F5;
+}
+
+.messagehead {
+  padding-top: 8px;
+  height: 4em;
+  color: #F5F5F5;
+  border-radius: 8px;
+  font-size: 24px;
+}
+img.star{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.bonus{
+  border-radius: 16px;
+  border: 5px solid #f9f9f9;
+}
+
+.editbtn {
+  border: none;
+}
+
+
+.messageavatar {
+  width: 14%;
+  float: left;
+  padding-right: 6px;
+  padding-top: 2px;
+}
+
+.messageavatar2 {
+  width: 12%;
+  float: left;
+  padding-right: 8px;
+  margin-top: 2px;
+
+}
+
+/*@media ******************************************************************* */
+
+ @media (max-width: 767.98px) {
+       .topfront {
+         height: 25em;
+         background-color:  #800000;
+         padding: 6px;
+       }
+
+       #imagefront {
+         width: 280px;
+         margin-left: 10px;
+         margin-top: 10px;
+       }
+       .bottomtext {
+         color: white;
+         font-size: 30px;
+         margin-left: 1em;
+         margin-top: 2em;
+       }
+
+       .avatar {
+         margin-top: 20px;
+         width: 125px;
+       }
+
+       .welcome {
+         color: white;
+         font-size: 50px;
+         padding: 20px;
+       }
+
+       .loginbutton, #logoutbutton {
+         padding-left: 14px;
+         padding-right: 14px;
+         padding-top: 2px;
+         padding-bottom: 2px;
+         background-color: #66d066;
+         color: white;
+         font-size: 16px;
+         width: 75px;
+        }
+
+       .inputfront {
+         margin-top: 4px;
+         width: 80%;
+       }
+
+       .style {
+         width: 60px;
+         height: 20px;
+         border-radius: 16px;
+       }
+       .style:hover {
+        transform: scale(0.9);
+       }
+
+       .example {
+         transform: scale(1);
+       }
+
+       .colors {
+         padding-left: 16px;
+       }
+
+       .messages {
+         padding-top: 6px;
+         border: none;
+       }
+
+       .messageavatar {
+         width: 10%;
+       }
+
+       #logoutbutton {
+         padding-left: 4px;
+         font-size: 14px;
+       }
+
+}
